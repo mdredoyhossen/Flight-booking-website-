@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    <title>Login & Registration Panel</title>
+</head>
+
+<body>
+    <!-- Header Start Here -->
+    <div id="main">
+        <!-- Navbar_start here -->
+        <div id="nav_bar">
+            <div class="logo">
+                <a href="index.html"><img src="/Logo/pick_&_go.png" alt="logo"></a>
+            </div>
+            <ul class="nav_style">
+                <li class="nav_li"><a href="index.html" class="link_style">Home</a></li>
+                <li class="nav_li"><a href="booking.html" class="link_style">Booking</a></li>
+                <li class="nav_li"><a href="offer.html" class="link_style">Offers</a></li>
+                <li class="nav_li"><a href="experience.html" class="link_style">Experience</a></li>
+                <li class="nav_li"><a href="about.html" class="link_style">About</a></li>
+            </ul>
+        </div>
+        <!-- Nav Finished here -->
+    </div>
+    <!-- Header Finished Here -->
+    <!-- Login Panel Start Here -->
+    <div class="log_re_po">
+        <h3>
+            <marquee scrollamount="10" direction="left" style="color: rgb(70, 186, 221)">Click on [ Login ] or [ Registration ] !!!</marquee>
+        </h3>
+        <div class="main">
+            <!-- Login Tab Start Here -->
+            <div class="login">
+                <input type="radio" class="tabs_radio" name="tab" id="tab1" >
+                <label for="tab1" class="tabs_label">Login</label>
+                <!-- Login Content Here -->
+                <div class="tabs_content">
+                    <h1>Login Details:</h1>
+                    <p style="color: red;">Enter Your Details Correctly To Log-in!!</p>
+                    <div class="details_area">
+                        <!-- Login email Space Here -->
+                        <div class="space">
+                           <i class="ri-mail-line"></i>  <!-- Login Icon Here -->
+                            <input type="text" required>
+                            <lable class="labelline">Email:</lable> <!-- Login Email Here -->
+                        </div>
+                         <!-- Login Password Space Here -->
+                        <div class="space">
+                            <i class="ri-lock-unlock-line"></i>
+                            <input type="password" required>
+                            <lable class="labelline">Password:</lable> <!-- Login Password Here -->
+                        </div>
+                         <!-- Submit Button Here -->
+                        <button type="submit">Login</button>
+                    </div>
+                    <!-- Login Content Here -->
+                </div>
+            </div>
+            <!-- Login Panel Finished Here -->
+            <div class="registration">
+                <input type="radio" class="tabs_radio" name="tab" id="tab2">
+                <label for="tab2" class="tabs_label">Registration</label>
+                <div class="tabs_content">
+                    <h1>Registration Details:</h1>
+                    <p style="color: red;">Please Provide Correct Information!!!</p>
+                    <div class="details_area">
+                        <div class="space">
+                            <i class="ri-id-card-line"></i>
+                            <input type="text" required>
+                            <lable class="labelline">Name:</lable>
+                        </div>
+                        <div class="space">
+                            <i class="ri-mail-open-line"></i>
+                            <input type="text" required>
+                            <lable class="labelline">Email:</lable>
+                        </div>
+                        <div class="space">
+                            <i class="ri-phone-fill"></i>
+                            <input type="text" required>
+                            <lable class="labelline">Number:</lable>
+                        </div>
+                        <div class="space">
+                            <i class="ri-map-pin-user-line"></i>
+                            <input type="text" required>
+                            <lable class="labelline">Address:</lable>
+                        </div>
+                        <div class="space">
+                            <i class="ri-id-card-fill"></i>
+                            <input type="number" required>
+                            <lable class="labelline">Nid_Number:</lable>
+                        </div>
+                        <div class="space">
+                            <i class="ri-lock-unlock-line"></i>
+                            <input type="password" required>
+                            <lable class="labelline">Password:</lable>
+                        </div>
+                        <div class="space">
+                            <i class="ri-key-line"></i>
+                            <input type="password" required>
+                            <lable class="labelline">Re_enter_password:</lable>
+                        </div>
+                        <button type="submit">Registration</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

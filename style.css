@@ -1,0 +1,886 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Bebas+Neue&family=Caveat:wght@400..700&family=Kaushan+Script&family=Lora:ital,wght@0,400..700;1,400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Roboto+Slab:wght@100..900&family=Truculenta:opsz,wght@12..72,100..900&family=Varela&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation Bar Start Here */
+.logo img {
+    width: 9rem;
+}
+
+#main {
+    position: relative;
+    height: 600px;
+}
+
+/* Navbar main */
+#nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0px 0px 2px 0px #838383;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: white;
+}
+
+/* Ul style here */
+.nav_style {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+/* a href here */
+.link_style {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: uppercase;
+    color: rgb(117, 113, 113);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 15px 15px;
+}
+
+.link_style:hover {
+    color: black;
+    transition: 0.7s;
+    background-color: rgba(44, 155, 170, 0.068);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.home {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 15px 15px;
+    color: black;
+    background-color: rgba(44, 155, 170, 0.337);
+    border-radius: 20px;
+}
+
+/* Button here */
+.button {
+    padding: 15px 0px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: rgb(70, 186, 221);
+    color: white;
+    border-radius: 15px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: rgb(44, 155, 170);
+    border: 1px solid rgb(44, 155, 170);
+    border-radius: 15px;
+    transition: 0.6s;
+}
+
+.button a {
+    color: white;
+    padding: 18px 10px;
+    font-size: .9rem;
+}
+
+.button a:hover {
+    color: rgb(44, 155, 170);
+}
+
+/* NavBar Finished here */
+
+/* Banner start here */
+
+#offer_banner {
+    padding: 30px 30px;
+    position: absolute;
+    top: 12%;
+}
+
+#offer_banner a {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.banner {
+    border-radius: 50px;
+    box-shadow: 1px 1px 11px 1px #838383;
+    max-width: 100%;
+    height: auto;
+
+}
+
+#offer_banner h1 {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    font-family: "Allison";
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(44, 155, 170);
+    font-size: 4rem;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.lg_icon {
+    display: flex;
+    position: absolute;
+    top: 33%;
+    left: 11%;
+    width: 7rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.book_now {
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    border: none;
+    background-color: rgb(70, 186, 221);
+    border-radius: 20px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(70, 186, 221);
+    transition: 0.7s;
+}
+
+.book_now a {
+    color: white;
+    padding: 15px 15px;
+    transition: 0.7s;
+}
+
+.book_now:hover {
+    background-color: transparent;
+    transition: 0.7s;
+}
+
+.book_now a:hover {
+    color: rgb(70, 186, 221);
+    border-radius: 1px solid rgb(70, 186, 221);
+    transition: 0.7s;
+}
+
+.gif2 {
+    position: absolute;
+    width: 9rem;
+    top: 5%;
+    right: 8%;
+}
+
+/* Banner Finished Here */
+
+/* Booking section start Here */
+/* Booking Main */
+.booking_main {
+    padding: 15px 15px;
+    position: relative;
+    margin: 0px 15px;
+}
+
+.booking_content {
+    border-radius: 2rem;
+    border: 1px solid rgb(240, 233, 233);
+    box-shadow: 0px 0px 7px -3px;
+    background-color: white;
+}
+
+.booking_section_offer {
+    position: absolute;
+    left: 35%;
+    top: 13%;
+    color: rgb(70, 186, 221);
+    z-index: 0;
+}
+
+.booking_tab {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    padding: 80px 25px;
+}
+
+.tabs__label {
+    padding: 15px 148px;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 9px;
+}
+
+.tabs__label:hover {
+    color: rgb(70, 186, 221);
+    border: 1px solid rgb(70, 186, 221);
+    transition: 0.1s;
+}
+
+.tabs__radio {
+    display: none;
+    transition: 0.7s;
+}
+
+.tabs__content {
+    order: 1;
+    width: 100%;
+    line-height: 1.5;
+    font-size: 0.9em;
+    display: none;
+    margin: 20px;
+    transition: 0.7s;
+    padding: 15px 85px;
+}
+
+.entryarea span {
+    padding: 0.5rem 0.6rem;
+    font-size: 1.6rem;
+    color: rgb(109, 104, 104);
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(245, 245, 245);
+}
+
+.tabs__radio:checked+.tabs__label {
+    background-color: rgb(70, 186, 221);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.tabs__radio:checked+.tabs__label+.tabs__content {
+    display: initial;
+}
+
+
+/* Form start here */
+.forum {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    gap: 13rem;
+    padding: 25px 0px;
+}
+
+.entryarea {
+    position: relative;
+}
+
+input {
+    position: absolute;
+    outline: none;
+    padding: 10px 10px;
+    background: transparent;
+    z-index: 1;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.labelline {
+    position: absolute;
+    transition: 0.5s;
+    padding: 6px 6px;
+    font-size: 1.2rem;
+    color: rgb(75, 73, 73);
+}
+
+input:focus+.labelline,
+input:valid+.labelline {
+    transform: translate(0px, -15px) scale(0.88);
+    z-index: 1111;
+    transition: 0.5s;
+    padding: 2px 2px;
+    color: rgb(66, 141, 178);
+}
+
+/* Booking Section finished here */
+
+.content_text {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Content Start Here */
+
+/* Content_main */
+.content-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+    position: relative;
+}
+
+
+/* content border */
+.content {
+    background-color: white;
+    margin: 20px;
+    border-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px #838383;
+    transition: 0.3s;
+}
+
+.content a {
+    color: black;
+}
+
+.content:hover {
+    box-shadow: 0px 0px 8px 0px #838383;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.content h5 {
+    font-family: Helvetica, Helvetica, Arial, Lucida, sans-serif;
+    font-size: .7rem;
+    line-height: 1.15rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    color: #666;
+    hyphens: auto;
+    text-align: center;
+    margin: 12px 0px 0px 0px;
+}
+
+.content h2 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px 0px 0px 0px;
+}
+
+.content p {
+    font-size: .7rem;
+    text-align: center;
+    margin: 5px;
+
+
+}
+
+.content h3 {
+    text-align: center;
+    margin: 10px 0px 18px 0px;
+    color: rgb(70, 186, 221);
+
+}
+
+
+/* content all image */
+.content_img {
+    width: 20rem;
+    height: 10rem;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    align-items: center;
+}
+
+/* Content finished Here */
+
+/* See More Start Here */
+.load_more {
+    text-align: center;
+}
+
+.load_more a {
+    color: black;
+    border: 1px solid black;
+    padding: 5px 100px;
+    transition: 0.2s;
+    border-radius: 3px;
+}
+
+.load_more a:hover {
+    color: rgb(70, 186, 221);
+    border: 1px solid rgb(70, 186, 221);
+    transition: 0.2s;
+}
+
+.load_more p {
+    font-size: .7rem;
+    margin: 10px;
+}
+
+/* See More Finished Here */
+
+/* last poster start here */
+.text_content_main {
+    position: relative;
+    padding: 15px 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.plan_img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.last_poster_text {
+    padding: 10px 10px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 20%;
+    left: 1%;
+    width: 30rem;
+    height: 20rem;
+    background-color: rgba(232, 232, 232, 0.316);
+    border-radius: 5px;
+}
+
+.last_poster_area_border {
+    border: 1px solid white;
+    width: 28.8rem;
+    height: 18.7rem;
+    border-radius: 10px;
+}
+
+.last_poster_area_background {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.496);
+    margin: 20px;
+    width: 26rem;
+    height: 16.5rem;
+    border-radius: 10px;
+
+}
+
+.last_poster_area_background p {
+    position: absolute;
+    color: black;
+    margin-top: 115px;
+    left: 10px;
+    padding: 5px 35px;
+    font-size: 0.9rem;
+}
+
+.last_poster_area_background a {
+    position: absolute;
+    bottom: 10px;
+    left: 25%;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.9s;
+    padding: 3px 27px;
+}
+
+.last_poster_area_background a:hover {
+    background-color: rgba(70, 186, 221, 0.504);
+    border: 1px solid black;
+    color: white;
+    transition: 0.4s;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+.star {
+    position: absolute;
+    width: 8rem;
+    left: 37%;
+}
+
+.last_poster_area p {
+    font-family: Helvetica, Helvetica, Arial, Lucida, sans-serif;
+    font-size: .7rem;
+    line-height: 1.15rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    hyphens: auto;
+    text-align: center;
+}
+
+/* last poster finished here */
+
+/* Text Before promotional start Image */
+.t_pr {
+    margin: 20px;
+}
+
+.t_pr p {
+    font-family: Helvetica, Helvetica, Arial, Lucida, sans-serif;
+    font-size: .5rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    color: #666;
+    hyphens: auto;
+    text-align: center;
+}
+
+.t_pr h1 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}
+
+/* Text Before promotional Image finished here*/
+
+
+/* Promotional image Section Start Here */
+/* image main section */
+.all_class {
+    display: flex;
+    justify-content: center;
+    padding: 0px 35px 0px 110px;
+}
+
+/* Explore Bangladesh main class*/
+.expo_bd {
+    position: relative;
+    display: flex;
+}
+
+/*  Bangladesh font h5*/
+.expo_bd h5 {
+    position: absolute;
+    left: 3%;
+    top: 3%;
+    font-family: Helvetica, Helvetica, Arial, Lucida, sans-serif;
+    font-size: .5rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    color: #666;
+    hyphens: auto;
+    text-shadow: 5px 10px 40px rgb(70, 186, 221);
+}
+
+/* Explore Bangladesh font h2 */
+.expo_bd h2 {
+    position: absolute;
+    left: 2%;
+    top: 8%;
+    border-bottom: 2px solid rgb(70, 186, 221);
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px 0px 0px 0px;
+    text-shadow: 5px 10px 40px rgb(70, 186, 221);
+
+}
+
+/* Explore Bangladesh learn more p*/
+.expo_bd p {
+    position: absolute;
+    left: 2%;
+    top: 19%;
+    font-size: .7rem;
+    text-align: center;
+    color: #666;
+    text-shadow: 5px 10px 40px rgb(70, 186, 221);
+
+}
+
+/* Explore Bangladesh image*/
+.expo_bd img {
+    width: 20rem;
+    height: auto;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 2px 0px #838383;
+    transition: 0.4s;
+}
+
+.expo_bd img:hover {
+    transition: 0.4s;
+    box-shadow: 0px 0px 5px 0px #838383;
+}
+
+/* Four Package main class */
+.bep_class {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Four Package image style here */
+.package_img {
+    margin: 8px;
+    box-shadow: 0px 0px 2px 0px #838383;
+    transition: 0.4s;
+}
+
+/* Four Package image hover here */
+
+.package_img:hover {
+    transition: 0.4s;
+    box-shadow: 0px 0px 5px 0px #838383;
+}
+
+/* Four Package Text alignment here */
+/* For Economy */
+.economy h5 {
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+.economy h2 {
+    position: absolute;
+    left: 20%;
+    top: 8%;
+
+}
+
+.economy p {
+    position: absolute;
+    left: 26%;
+    top: 18%;
+}
+
+/* Economy Finished Here */
+
+/* Business class start here */
+.business h5 {
+    position: absolute;
+    left: 62%;
+    top: 5%;
+}
+
+.business h2 {
+    position: absolute;
+    left: 62%;
+    top: 8%;
+}
+
+.business p {
+    position: absolute;
+    left: 68%;
+    top: 18%;
+}
+
+/* Business class finished here */
+
+/* Premium class start here */
+.premium h5 {
+    position: absolute;
+    left: 20%;
+    top: 56%;
+}
+
+.premium h2 {
+    position: absolute;
+    left: 20%;
+    top: 59%;
+}
+
+.premium p {
+    position: absolute;
+    left: 26%;
+    top: 70%;
+}
+
+/* Premium class finished here */
+
+.premium_business h5 {
+    position: absolute;
+    left: 62%;
+    top: 56%;
+}
+
+.premium_business h2 {
+    position: absolute;
+    left: 55%;
+    top: 59%;
+}
+
+.premium_business p {
+    position: absolute;
+    left: 68%;
+    top: 70%;
+}
+
+/* Promotional image Section finished Here */
+/* Why Travel With PICK & GOO Start Here */
+
+.why_travelwith_us {
+    background-color: rgba(70, 186, 221, 0.055);
+    margin-top: 20px;
+}
+
+.why_travelwith_us h2 {
+    font-family: Lato, Lato-fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.whytravel_main {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+}
+
+.why {
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.why_img img {
+    height: 5rem;
+}
+
+.why_text h4 {
+    font-family: Lato, Lato-fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(89 89 91);
+    padding: 15px 0px;
+}
+
+.why_text_p {
+    font-size: 0.8rem;
+    color: rgb(154 154 157);
+
+}
+
+/* Why Travel With PICK & GOO finished Here */
+
+
+
+/* Our partnear start here */
+
+.our_partner {
+    padding: 15px 150px 10px 150px;
+}
+
+.our_p_main h2 {
+    font-family: Lato, Lato-fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.our_partner img {
+    padding: 5px 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.our_p_main p {
+    text-align: center;
+}
+
+.our_p_main a {
+    border: 1px solid rgb(70, 186, 221);
+    padding: 7px 65px;
+    transition: 0.2s;
+    color: rgb(70, 186, 221);
+}
+
+.our_p_main a:hover {
+    background-color: rgb(70, 186, 221);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+/* Our partnear finished here */
+/* Footer Start Here  */
+.footer_main {
+    display: flex;
+    left: 0;
+    gap: 6rem;
+    margin-top: 10px;
+    padding: 25px 25px 0px 100px;
+    background-color: rgba(70, 186, 221, 0.062);
+    ;
+}
+
+.footer_main li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer_main h2 {
+    font-family: Lato, Lato-fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.2rem;
+}
+
+.footer_main a {
+    font-family: Lato, Lato-fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: .8rem;
+    padding-bottom: 3px;
+}
+
+.footer_main a:hover {
+    border-bottom: 1px solid black;
+    background-color: #bbb8b83b;
+    transition: 0.2s;
+}
+
+.footer_social {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.footer_social img {
+    width: 3rem;
+    padding: 0px 10px;
+    border-radius: 30px;
+}
+
+.footer_social a:hover {
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.our_app img {
+    width: 6rem;
+}
+
+/* Footer Finished Here  */

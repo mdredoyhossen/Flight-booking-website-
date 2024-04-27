@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Bebas+Neue&family=Caveat:wght@400..700&family=Kaushan+Script&family=Lora:ital,wght@0,400..700;1,400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Roboto+Slab:wght@100..900&family=Truculenta:opsz,wght@12..72,100..900&family=Varela&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navbar main */
+.logo img {
+    width: 9rem;
+}
+
+#nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0px 0px 2px 0px #838383;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: white;
+}
+
+/* Ul style here */
+.nav_style {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+/* a href here */
+.link_style {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: uppercase;
+    color: rgb(117, 113, 113);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 15px 15px;
+}
+
+.link_style:hover {
+    color: black;
+    transition: 0.7s;
+    background-color: rgba(44, 155, 170, 0.068);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.about {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 15px 15px;
+    color: black;
+    background-color: rgba(44, 155, 170, 0.337);
+    border-radius: 20px;
+}
+
+/* Button here */
+.button {
+    padding: 15px 0px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: rgb(70, 186, 221);
+    color: white;
+    border-radius: 15px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: rgb(44, 155, 170);
+    border: 1px solid rgb(44, 155, 170);
+    border-radius: 15px;
+    transition: 0.6s ease;
+}
+
+.button a {
+    color: white;
+    padding: 20px 30px;
+}
+
+.button a:hover {
+    color: rgb(44, 155, 170);
+}
+
+/* Navbar Finished Here */
+
+
+/* about section start here  */
+.about_main {
+    width: auto;
+    background-color: white;
+    margin: 2rem;
+    box-shadow: 0px 0px 2px 0px #838383;
+
+}
+
+.content img {
+    height: 3.5rem;
+}
+
+/* Video Section Start Here */
+.video_section {
+    padding: 10px 0px 0px 13rem;
+}
+
+#video_main .myvideo {
+    width: auto;
+    height: 28rem;
+    padding: 5px 5px;
+    box-shadow: 0px 0px 5px 0px #838383;
+    z-index: -1;
+}
+
+#video_main {
+    position: relative;
+}
+.video_text {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    height: 27.3rem;
+    width: 48.7rem;
+    background-color: rgba(44, 155, 170, 0.21);
+}
+
+.video_text h2 {
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    font-family: Helvetica, Helvetica, Arial, Lucida, sans-serif;
+    font-size: .7rem;
+    line-height: 1.15rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    hyphens: auto;
+    text-align: center;
+    margin: 12px 0px 0px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+}
+
+.video_text p {
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    font-family: "Philosopher", sans-serif;
+    font-size: 5rem;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: center;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, .5);
+}
+
+.video_text h5 {
+    position: absolute;
+    top: 55%;
+    left: 9%;
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+}
+
+
+/* Video Section Finished Here */
+.about_con {
+    margin: 0px 50px;
+    padding: 0px 15px;
+}
+
+.about_con_main {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.about_con_main h1 {
+    padding: 5px;
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    background-color: rgba(70, 186, 221, 0.691);
+    border-radius: 10px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .5);
+
+}
+
+.about_con_main p {
+    font-family: ui-sans-serif, system-ui, Helvetica, Arial, sans-serif;
+    font-weight: 350;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: left;
+}
+
+.con2 {
+    margin: 0px 30px;
+    padding: 0px 0px 50px 0px;
+}
+
+.con2 p {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+/* about section finished here  */
+
+/* Footer Start Here  */
+.footer_main {
+    display: flex;
+    left: 0;
+    gap: 6rem;
+    margin-top: 10px;
+    padding: 25px 25px 0px 100px;
+    background-color: rgba(70, 186, 221, 0.062);
+    ;
+}
+
+.footer_main li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer_main h2 {
+    font-family: Lato, Lato-fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.2rem;
+}
+
+.footer_main a {
+    font-family: Lato, Lato-fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: .8rem;
+    padding-bottom: 3px;
+}
+
+.footer_main a:hover {
+    border-bottom: 1px solid black;
+    background-color: #bbb8b83b;
+    transition: 0.2s;
+}
+
+.footer_social {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.footer_social img {
+    width: 3rem;
+    padding: 0px 10px;
+    border-radius: 30px;
+}
+
+.footer_social a:hover {
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.our_app img {
+    width: 6rem;
+}
+
+/* Footer Finished Here  */

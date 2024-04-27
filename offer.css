@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Bebas+Neue&family=Caveat:wght@400..700&family=Kaushan+Script&family=Lora:ital,wght@0,400..700;1,400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Roboto+Slab:wght@100..900&family=Truculenta:opsz,wght@12..72,100..900&family=Varela&family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Navigation Bar Start Here */
+.logo img {
+    width: 9rem;
+}
+
+#main {
+    position: relative;
+    height: 100px;
+}
+
+/* Navbar main */
+#nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: 0px 0px 2px 0px #838383;
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+/* Ul style here */
+.nav_style {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+/* a href here */
+.link_style {
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-transform: uppercase;
+    color: rgb(117, 113, 113);
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: 0.5s;
+    padding: 15px 15px;
+}
+
+.link_style:hover {
+    color: black;
+    transition: 0.7s;
+    background-color: rgba(44, 155, 170, 0.068);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.offer{
+        font-family: "Teko", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        font-weight: 500;
+        transition: 0.5s;
+        padding: 15px 15px;
+        color: black;
+        background-color: rgba(44, 155, 170, 0.337);
+        border-radius: 20px;
+}
+
+/* Button here */
+.button {
+    padding: 15px 0px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background-color: rgb(70, 186, 221);
+    color: white;
+    border-radius: 15px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: rgb(44, 155, 170);
+    border: 1px solid rgb(44, 155, 170);
+    border-radius: 15px;
+    transition: 0.6s;
+}
+
+.button a {
+    color: white;
+    padding: 18px 10px;
+    font-size: .9rem;
+}
+
+.button a:hover {
+    color: rgb(44, 155, 170);
+}
+
+
+/* NavBar Finished here */
+
+/* section offer start here  */
+.offer1 {
+    display: flex;
+    margin: 10px 110px;
+    padding: 10px 0px 5px 0px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px #838383;
+    border-radius: 10px;
+}
+.offer1:hover{
+    box-shadow: 0px 0px 5px 0px #838383;
+}
+
+.offer_img img {
+    width: 15rem;
+    height: 15rem;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.offer_img img:hover{
+    width: 15rem;
+    height: 15rem;
+}
+.content_offer{
+    margin-left: 30px;
+}
+.content_offer h1{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 15px;
+}
+.content_offer p{
+    margin: 12px 0px;
+}
+.review_star{
+    width: auto;
+    height: 1rem;
+}
+.content_offer h3{
+    margin-top: 10px;
+}
+.content_offer a{
+    padding: 10px 10px 10px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 15px 15px 20px;
+    transition: 0.6s3
+}
+.content_offer a:hover{
+    background-color: rgb(70, 186, 221);
+    transition: 0.3s;
+}
+.offer_button{
+    padding: 30px 0px 0px 0px;
+}
+.content_offer h2{
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.content_text {
+    text-align: center;
+    margin: 20px;
+}
+/* See More Start Here */
+.load_more {
+    text-align: center;
+}
+
+.load_more a {
+    color: black;
+    border: 1px solid black;
+    padding: 5px 100px;
+    transition: 0.2s;
+    border-radius: 3px;
+}
+
+.load_more a:hover {
+    color: rgb(70, 186, 221);
+    border: 1px solid rgb(70, 186, 221);
+    transition: 0.2s;
+}
+
+.load_more p {
+    font-size: .7rem;
+    margin: 10px;
+}
+
+/* See More Finished Here */
+/* section offer finished here  */
+
+
+/* Content Start Here */
+.booking_section_offer {
+    padding: 20px 15rem 20px 15rem;
+    color: rgb(70, 186, 221);
+}
+
+/* Content_main */
+.content-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+
+/* content border */
+.content {
+    background-color: white;
+    margin: 20px;
+    border-top: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px #838383;
+    transition: 0.3s;
+}
+
+.content a {
+    color: black;
+}
+
+.content:hover {
+    box-shadow: 0px 0px 8px 0px #838383;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.content h5 {
+    font-family: Helvetica, Helvetica, Arial, Lucida, sans-serif;
+    font-size: .7rem;
+    line-height: 1.15rem;
+    font-weight: 700;
+    line-height: 1.4rem;
+    letter-spacing: .4rem;
+    text-transform: uppercase;
+    color: #666;
+    hyphens: auto;
+    text-align: center;
+    margin: 12px 0px 0px 0px;
+}
+
+.content h2 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 5px 0px 0px 0px;
+}
+
+.content p {
+    font-size: .7rem;
+    text-align: center;
+    margin: 5px;
+
+
+}
+
+.content h3 {
+    text-align: center;
+    margin: 10px 0px 18px 0px;
+    color: rgb(70, 186, 221);
+
+}
+
+
+/* content all image */
+.content_img {
+    width: 20rem;
+    height: 10rem;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    align-items: center;
+}
+
+/* Content finished Here */
+
+/* Footer Start Here  */
+.footer_main {
+    display: flex;
+    left: 0;
+    gap: 6rem;
+    margin-top: 10px;
+    padding: 25px 25px 0px 100px;
+    background-color: rgba(70, 186, 221, 0.062);
+    ;
+}
+
+.footer_main li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer_main h2 {
+    font-family: Lato, Lato-fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: 1.2rem;
+}
+
+.footer_main a {
+    font-family: Lato, Lato-fallback, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    font-size: .8rem;
+    padding-bottom: 3px;
+}
+
+.footer_main a:hover {
+    border-bottom: 1px solid black;
+    background-color: #bbb8b83b;
+    transition: 0.2s;
+}
+
+.footer_social {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.footer_social img {
+    width: 3rem;
+    padding: 0px 10px;
+    border-radius: 30px;
+}
+
+.footer_social a:hover {
+    border-bottom: none;
+    background-color: transparent;
+}
+
+.our_app img {
+    width: 6rem;
+}
+
+/* Footer Finished Here  */
