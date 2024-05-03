@@ -208,6 +208,8 @@ a {
 .about_con_main {
     display: flex;
     margin-top: 2rem;
+    box-shadow: 0px 0px 2px 0px #838383;
+    padding: 15px;
 }
 
 .about_con_main h1 {
