@@ -91,12 +91,13 @@ a {
     color: rgb(44, 155, 170);
     border: 1px solid rgb(44, 155, 170);
     border-radius: 15px;
-    transition: 0.6s ease;
+    transition: 0.6s;
 }
 
 .button a {
     color: white;
-    padding: 20px 30px;
+    padding: 18px 10px;
+    font-size: .9rem;
 }
 
 .button a:hover {
