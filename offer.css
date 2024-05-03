@@ -133,10 +133,13 @@ a {
     height: 15rem;
     margin-left: 10px;
     border-radius: 10px;
+    transition: 0.5s;
 }
 .offer_img img:hover{
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
+    transition: 0.5s;
+    border-radius: 5px;
 }
 .content_offer{
     margin-left: 30px;
